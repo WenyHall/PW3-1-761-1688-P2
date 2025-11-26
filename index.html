@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Científica - Programación Web III</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>CALCULADORA CIENTÍFICA</h1>
+
+    <!-- 1. Suma de tres valores -->
+    <section>
+        <h2>1. Suma de tres valores</h2>
+        <input type="number" id="s1" placeholder="Valor 1">
+        <input type="number" id="s2" placeholder="Valor 2">
+        <input type="number" id="s3" placeholder="Valor 3">
+        <button onclick="sumarValores()">Calcular suma</button>
+        <p id="resultado1"></p>
+    </section>
+
+    <!-- 2. Cuadrado de un número -->
+    <section>
+        <h2>2. Cuadrado de un número</h2>
+        <input type="number" id="numeroCuadrado" placeholder="Ingrese un número">
+        <button onclick="cuadrado()">Calcular cuadrado</button>
+        <p id="resultado2"></p>
+    </section>
+
+    <!-- 3. Promedio de calificaciones -->
+    <section>
+        <h2>3. Promedio de calificaciones</h2>
+        <input type="text" id="nombre" placeholder="Nombre del estudiante">
+        <input type="number" id="c1" placeholder="Calificación 1">
+        <input type="number" id="c2" placeholder="Calificación 2">
+        <input type="number" id="c3" placeholder="Calificación 3">
+        <button onclick="promedio()">Calcular promedio</button>
+        <p id="resultado3"></p>
+    </section>
+
+    <!-- 4. Conversión de unidades -->
+    <section>
+        <h2>4. Conversión de Metros</h2>
+        <input type="number" id="metros" placeholder="Ingrese metros">
+        <button onclick="convertirMetros()">Convertir</button>
+        <p id="resultado4"></p>
+    </section>
+
+    <!-- 5. Comparación de dos valores -->
+    <section>
+        <h2>5. Comparación entre dos valores</h2>
+        <input type="number" id="v1" placeholder="Primer número">
+        <input type="number" id="v2" placeholder="Segundo número">
+        <button onclick="comparar()">Comparar</button>
+        <p id="resultado5"></p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
